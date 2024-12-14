@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1787</width>
+    <width>1788</width>
     <height>840</height>
    </rect>
   </property>
@@ -325,9 +325,12 @@ QPushButton:checked{
       <rect>
        <x>-260</x>
        <y>0</y>
-       <width>1691</width>
+       <width>1731</width>
        <height>781</height>
       </rect>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
      </property>
      <widget class="QWidget" name="page"/>
      <widget class="QWidget" name="page_3"/>
@@ -805,22 +808,6 @@ QPushButton:checked{
    </hints>
   </connection>
   <connection>
-   <sender>pushButton_11</sender>
-   <signal>toggled(bool)</signal>
-   <receiver>icon_text_widget</receiver>
-   <slot>setHidden(bool)</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>151</x>
-     <y>25</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>270</x>
-     <y>25</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
    <sender>pushButton_7</sender>
    <signal>toggled(bool)</signal>
    <receiver>pushButton_8</receiver>
@@ -833,6 +820,22 @@ QPushButton:checked{
     <hint type="destinationlabel">
      <x>66</x>
      <y>197</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_11</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>icon_text_widget</receiver>
+   <slot>setHidden(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>151</x>
+     <y>25</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>270</x>
+     <y>25</y>
     </hint>
    </hints>
   </connection>
