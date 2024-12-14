@@ -28,7 +28,7 @@
      <rect>
       <x>0</x>
       <y>0</y>
-      <width>101</width>
+      <width>131</width>
       <height>841</height>
      </rect>
     </property>
@@ -158,7 +158,7 @@ QPushButton:checked{
     <widget class="QPushButton" name="pushButton_3">
      <property name="geometry">
       <rect>
-       <x>13</x>
+       <x>15</x>
        <y>780</y>
        <width>75</width>
        <height>50</height>
@@ -189,7 +189,7 @@ QPushButton:checked{
     <widget class="QPushButton" name="pushButton_4">
      <property name="geometry">
       <rect>
-       <x>13</x>
+       <x>15</x>
        <y>730</y>
        <width>75</width>
        <height>50</height>
@@ -282,7 +282,7 @@ QPushButton:checked{
     <widget class="QPushButton" name="pushButton_34">
      <property name="geometry">
       <rect>
-       <x>13</x>
+       <x>15</x>
        <y>680</y>
        <width>75</width>
        <height>50</height>
@@ -584,9 +584,9 @@ QPushButton:checked{
    <widget class="QWidget" name="header_widget" native="true">
     <property name="geometry">
      <rect>
-      <x>100</x>
+      <x>130</x>
       <y>0</y>
-      <width>1691</width>
+      <width>1661</width>
       <height>61</height>
      </rect>
     </property>
@@ -715,9 +715,9 @@ QPushButton {
    <widget class="QWidget" name="icon_text_widget" native="true">
     <property name="geometry">
      <rect>
-      <x>100</x>
+      <x>110</x>
       <y>60</y>
-      <width>261</width>
+      <width>251</width>
       <height>781</height>
      </rect>
     </property>
@@ -725,7 +725,8 @@ QPushButton {
      <string notr="true">QWidget{
 	background-color: rgb(255, 255, 255);
 	text-allign: center;
-	border-right: 2px solid black;
+	border: 1px solid black;
+	border-top-left-radius: 20px 20px;
 
 }</string>
     </property>
@@ -748,6 +749,8 @@ QPushButton {
      <property name="styleSheet">
       <string notr="true">QLabel{
 	border-right:none;
+	border-left:none;
+	border-top:none;
 	border-bottom: 1px solid black;
 
 }</string>
@@ -1154,9 +1157,9 @@ QPushButton {
     <zorder>pushButton_33</zorder>
     <zorder>label_2</zorder>
    </widget>
-   <zorder>icon_text_widget</zorder>
    <zorder>main_screen_widget</zorder>
    <zorder>icon_widget</zorder>
+   <zorder>icon_text_widget</zorder>
    <zorder>header_widget</zorder>
   </widget>
  </widget>
